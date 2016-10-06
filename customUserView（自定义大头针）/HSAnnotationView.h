@@ -8,6 +8,7 @@
 
 #import <MapKit/MapKit.h>
 @class HSAnnotation;
+/** MKAnnotationView l类似于 tableViewCell */
 @interface HSAnnotationView : MKAnnotationView
 
 //自定义视图的现实的数据来源于模型，即使用模型装配自定义视图的显示内容

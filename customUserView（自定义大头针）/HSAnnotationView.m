@@ -14,7 +14,10 @@
     self = [super initWithAnnotation:annotation reuseIdentifier:reuseIdentifier];
     if (self) {
         //设置自己的属性
+        //如果是自定义大头针，标题的显示需要手动设置
+        self.canShowCallout = YES;
         //添加自己的控件
+        self.leftCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeContactAdd];//设置辅助视图
     }
     return self;
 }

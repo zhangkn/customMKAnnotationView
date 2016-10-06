@@ -62,13 +62,13 @@
     
     //添加大头针模型
     HSAnnotation *annotation = [[HSAnnotation alloc]init];
-    annotation.subtitle = @" addAnnotation subtitle";
     annotation.coordinate = CLLocationCoordinate2DMake(37.785834+arc4random_uniform(20), 116.858776+arc4random_uniform(20));
     //反地理编码
     CLLocation *location = [[CLLocation alloc]initWithLatitude:annotation.coordinate.latitude longitude:annotation.coordinate.longitude];
     [self.geocoder reverseGeocodeLocation:location completionHandler:^(NSArray<CLPlacemark *> * _Nullable placemarks, NSError * _Nullable error) {
         CLPlacemark *placeMark  = [placemarks firstObject];
         annotation.title =placeMark.name;
+        annotation.subtitle = placeMark.locality;
     }];
     annotation.icon = [NSString stringWithFormat:@"category_%d",arc4random_uniform(4)+1];
     [self.customMapView addAnnotation:annotation];
@@ -83,11 +83,12 @@
     [self.geocoder reverseGeocodeLocation:userLocation.location completionHandler:^(NSArray<CLPlacemark *> * _Nullable placemarks, NSError * _Nullable error) {
         CLPlacemark *placeMark  = [placemarks firstObject];
         userLocation.title =placeMark.name;
+        userLocation.subtitle = placeMark.locality;
     }];
     //兼容iOS7
     //让地图自动显示当前位置
     mapView.centerCoordinate = userLocation.location.coordinate;//设置地图的中心点
-    MKCoordinateRegion region = MKCoordinateRegionMake(mapView.centerCoordinate, MKCoordinateSpanMake(0.000956, 0.000632));
+    MKCoordinateRegion region = MKCoordinateRegionMake(mapView.centerCoordinate, MKCoordinateSpanMake(0.038258, 0.038258));
     [mapView setRegion: region animated:YES];//显示的区域
 }
 
