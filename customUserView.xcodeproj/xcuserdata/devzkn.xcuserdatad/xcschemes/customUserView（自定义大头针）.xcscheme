@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E1B692751DA6643000592116"
-               BuildableName = "customUserView&#xff08;&#x81ea;&#x5b9a;&#x4e49;&#x5927;&#x5934;&#x9488;&#xff09;.app"
-               BlueprintName = "customUserView&#xff08;&#x81ea;&#x5b9a;&#x4e49;&#x5927;&#x5934;&#x9488;&#xff09;"
-               ReferencedContainer = "container:customUserView&#xff08;&#x81ea;&#x5b9a;&#x4e49;&#x5927;&#x5934;&#x9488;&#xff09;.xcodeproj">
+               BuildableName = "customUserView.app"
+               BlueprintName = "customUserView"
+               ReferencedContainer = "container:customUserView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E1B692751DA6643000592116"
-            BuildableName = "customUserView&#xff08;&#x81ea;&#x5b9a;&#x4e49;&#x5927;&#x5934;&#x9488;&#xff09;.app"
-            BlueprintName = "customUserView&#xff08;&#x81ea;&#x5b9a;&#x4e49;&#x5927;&#x5934;&#x9488;&#xff09;"
-            ReferencedContainer = "container:customUserView&#xff08;&#x81ea;&#x5b9a;&#x4e49;&#x5927;&#x5934;&#x9488;&#xff09;.xcodeproj">
+            BuildableName = "customUserView.app"
+            BlueprintName = "customUserView"
+            ReferencedContainer = "container:customUserView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E1B692751DA6643000592116"
-            BuildableName = "customUserView&#xff08;&#x81ea;&#x5b9a;&#x4e49;&#x5927;&#x5934;&#x9488;&#xff09;.app"
-            BlueprintName = "customUserView&#xff08;&#x81ea;&#x5b9a;&#x4e49;&#x5927;&#x5934;&#x9488;&#xff09;"
-            ReferencedContainer = "container:customUserView&#xff08;&#x81ea;&#x5b9a;&#x4e49;&#x5927;&#x5934;&#x9488;&#xff09;.xcodeproj">
+            BuildableName = "customUserView.app"
+            BlueprintName = "customUserView"
+            ReferencedContainer = "container:customUserView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E1B692751DA6643000592116"
-            BuildableName = "customUserView&#xff08;&#x81ea;&#x5b9a;&#x4e49;&#x5927;&#x5934;&#x9488;&#xff09;.app"
-            BlueprintName = "customUserView&#xff08;&#x81ea;&#x5b9a;&#x4e49;&#x5927;&#x5934;&#x9488;&#xff09;"
-            ReferencedContainer = "container:customUserView&#xff08;&#x81ea;&#x5b9a;&#x4e49;&#x5927;&#x5934;&#x9488;&#xff09;.xcodeproj">
+            BuildableName = "customUserView.app"
+            BlueprintName = "customUserView"
+            ReferencedContainer = "container:customUserView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

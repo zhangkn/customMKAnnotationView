@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E1B692761DA6643000592116 /* customUserView（自定义大头针）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "customUserView（自定义大头针）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B692761DA6643000592116 /* customUserView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customUserView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B6927A1DA6643000592116 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E1B6927C1DA6643000592116 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E1B6927D1DA6643000592116 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		E1B692771DA6643000592116 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E1B692761DA6643000592116 /* customUserView（自定义大头针）.app */,
+				E1B692761DA6643000592116 /* customUserView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E1B692751DA6643000592116 /* customUserView（自定义大头针） */ = {
+		E1B692751DA6643000592116 /* customUserView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1B6928D1DA6643000592116 /* Build configuration list for PBXNativeTarget "customUserView（自定义大头针）" */;
+			buildConfigurationList = E1B6928D1DA6643000592116 /* Build configuration list for PBXNativeTarget "customUserView" */;
 			buildPhases = (
 				E1B692721DA6643000592116 /* Sources */,
 				E1B692731DA6643000592116 /* Frameworks */,
@@ -148,9 +148,9 @@
 			);
 			dependencies = (
 			);
-			name = "customUserView（自定义大头针）";
+			name = customUserView;
 			productName = "customUserView（自定义大头针）";
-			productReference = E1B692761DA6643000592116 /* customUserView（自定义大头针）.app */;
+			productReference = E1B692761DA6643000592116 /* customUserView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -169,7 +169,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E1B692711DA6643000592116 /* Build configuration list for PBXProject "customUserView（自定义大头针）" */;
+			buildConfigurationList = E1B692711DA6643000592116 /* Build configuration list for PBXProject "customUserView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -182,7 +182,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E1B692751DA6643000592116 /* customUserView（自定义大头针） */,
+				E1B692751DA6643000592116 /* customUserView */,
 			);
 		};
 /* End PBXProject section */
@@ -350,7 +350,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E1B692711DA6643000592116 /* Build configuration list for PBXProject "customUserView（自定义大头针）" */ = {
+		E1B692711DA6643000592116 /* Build configuration list for PBXProject "customUserView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1B6928B1DA6643000592116 /* Debug */,
@@ -359,7 +359,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E1B6928D1DA6643000592116 /* Build configuration list for PBXNativeTarget "customUserView（自定义大头针）" */ = {
+		E1B6928D1DA6643000592116 /* Build configuration list for PBXNativeTarget "customUserView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1B6928E1DA6643000592116 /* Debug */,
