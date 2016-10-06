@@ -9,7 +9,7 @@
 #import <MapKit/MapKit.h>
 @class HSAnnotation;
 /** MKAnnotationView l类似于 tableViewCell */
-@interface HSAnnotationView : MKAnnotationView
+@interface HSAnnotationView : MKAnnotationView// 如果继承MKPinAnnotationView ，是无法修改图标的
 
 //自定义视图的现实的数据来源于模型，即使用模型装配自定义视图的显示内容
 //@property (nonatomic,strong) <#ModelClass#> *<#ModelName#>;//视图对应的模型，是视图提供给外界的接口
